@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dumaguete City</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+    .banner {
+      background-image: url(Dumaguete-City-Facts.jpg);
+      background-size: cover;
+      width: 100%;
+      height: 92.4vh;
+      background-position: center;
+      position: relative; /* Ensure proper positioning of overlay */
+    }
+
+    .banner::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity here (0.5 for 50% opacity) */
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #fff; 
+      background-color: rgba(255, 255, 255, 0.404); 
+    }
+
+    .banner-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Arial', sans-serif; /* Change the font to Arial or any other preferred font */
+      color: #fff; /* Set text color to white */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow for better readability */
+    }
+
+    .bold-text {
+      font-weight: bold; /* Make the text bold */
+    }
+    
+    .card {
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px; /* Adjust the height to maintain uniform size */
+  object-fit: cover; /* Ensure the image covers the entire space */
+}
+
+.card-title {
+  font-size: 1.2rem; /* Increase the font size for better readability */
+}
+
+.card-text {
+  font-size: 1rem; /* Adjust the font size */
+}
+
+.card-body {
+  padding: 1.5rem; /* Increase padding for better spacing */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Change button color */
+  border-color: #007bff; /* Change button border color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darken button color on hover */
+  border-color: #0056b3; /* Darken button border color on hover */
+}
+.navbar-nav .nav-link:hover {
+      color: #fff; 
+      background-color: rgba(255, 255, 255, 0.404); 
+    }
+    body {
+      font-family: Arial, sans-serif; /* Change the font family to Arial or any other preferred sans-serif font */
+    }
+    .container p,
+    .container h1 {
+      font-family: Arial, sans-serif; /* Apply the same font family to paragraph and heading elements within the container */
+    }
+    .navbar-toggler {
+    border: none; /* Remove default border */
+    outline: none; /* Remove default focus outline */
+    padding: 0.25rem 0.5rem; /* Adjust padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+
+  /* Styling the navbar toggler icon bars */
+  .navbar-toggler-icon {
+    width: 1.5em; /* Adjust width of the bars */
+    height: 1.5em; /* Adjust height of the bars */
+    background-color: rgb(108, 108, 108); /* Change color of the bars */
+    border-radius: 0.25rem; /* Add border-radius to make it rounded */
+  }
+
+  /* Change color of the toggler icon bars on hover */
+  .navbar-toggler:hover .navbar-toggler-icon {
+    background-color: lightgray;
+  }
+  </style>
+</head>
+<body>
+  
+  <div class="container-fluid bg-dark">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fw-bold" href="#">Dumaguete City</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Exploredumaguete.html">Explore Dumaguete</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Thingstodo.html">Things to Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="Gallery.html">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <section class="container mt-5">
+    <h1 class="text-center mb-5">Things to Do in Dumaguete City</h1>
+    <p class="lead text-center">Explore the vibrant city of Dumaguete and discover an array of exciting activities and attractions. From serene beaches and historic landmarks to adventurous outdoor experiences, there's something for everyone to enjoy in Dumaguete City.</p>
+    <div class="row justify-content-center">
+      <!-- Your card elements go here -->
+    </div>
+  </section>
+  
+
+  <section class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rizal Boulevard</h5>
+            <p class="card-text">The tranquil atmosphere and refreshing sea breeze make it an ideal spot for leisurely strolls and relaxation.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> Famous seaside promenade located in Dumaguete City</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.trip.com/travel-guide/attraction/dumaguete/rizal-boulevard-29874669/" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Siliman University</h5>
+            <p class="card-text">Visitors can explore its lush campus and engage with students and faculty who are at the forefront of research and education.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> Private research university located in Dumaguete City</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.tripadvisor.com.ph/ShowUserReviews-g616032-d8399078-r492737943-Silliman_University-Dumaguete_City_Negros_Oriental_Negros_Island_Visayas.html" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div> <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Casaroro Falls</h5>
+            <p class="card-text">Getting to Casaroro Falls involves a thrilling trek through the dense jungle, across bamboo bridges, and along rocky paths. </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A stunning waterfall located, near Dumaguete City</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.journeyera.com/casaroro-falls-valencia/" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div> <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Apo Island</h5>
+            <p class="card-text">Apo Island is renowned for its vibrant coral reefs and diverse marine ecosystem, making it a paradise for snorkelers and divers.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A small volcanic island </li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.islandtrektours.com/apo-island-snorkeling-tour/" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div> <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pulangbato Falls</h5>
+            <p class="card-text">Pulangbato Falls is characterized by its striking red rock formations, which contrast beautifully with the lush greenery surrounding the falls.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A scenic waterfall located, near Dumaguete City</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.tripadvisor.com.ph/Attraction_Review-g616032-d1550124-Reviews-Pulangbato_Falls-Dumaguete_City_Negros_Oriental_Negros_Island_Visayas.html" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img6.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Twin Lakes Natural Park</h5>
+            <p class="card-text">Visitors can embark on nature walks or birdwatching excursions to spot colorful birds, rare orchids, and other unique wildlife thriving in their natural habitat.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"> A picturesque nature reserve located, near Dumaguete City</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.tripadvisor.com.ph/Attraction_Review-g616032-d3915484-Reviews-Twin_Lakes_of_Balinsasayao_Danao-Dumaguete_City_Negros_Oriental_Negros_Island_Vis.html" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img7.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Campanario de Dumaguete</h5>
+            <p class="card-text">Visitors can explore this well-preserved structure and learn about its role in the region's history, including its function as a watchtower to guard against pirate attacks. </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A historic bell tower located in Dumaguete City</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.trip.com/travel-guide/attraction/dumaguete/campanario-de-dumaguete-24649545/" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img8.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">St. Catherine Of Alexandria Cathedral</h5>
+            <p class="card-text">Visitors can marvel at the cathedral's intricate details, including its towering spires, stained glass windows, and elegant arches.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A prominent Catholic church located in Dumaguete City</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.tripadvisor.com.ph/Attraction_Review-g616032-d1550356-Reviews-St_Catherine_of_Alexandria_Cathedral-Dumaguete_City_Negros_Oriental_Negros_Island.html" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img9.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tierra Alta Lighthouse</h5>
+            <p class="card-text">Visitors can soak in the stunning vistas and capture memorable photographs against the backdrop of this idyllic setting.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A tower structure that resembles a lighthouse</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.siranglente.com/2019/10/tierra-alta-lighthouse-valencia-negros.html" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <div class="card mb-3">
+          <img src="img10.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Quezon Park</h5>
+            <p class="card-text">Visitors can explore the park's iconic monuments, including the statue of President Quezon, which commemorates his contributions to the nation.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">A popular public park located in the heart of Dumaguete City</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.tripadvisor.com.ph/Attraction_Review-g616032-d2554274-Reviews-Quezon_Park-Dumaguete_City_Negros_Oriental_Negros_Island_Visayas.html" class="btn btn-primary">See Tours</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="lead mb-0">© 2024 Dumaguete City. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
